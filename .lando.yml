@@ -1,0 +1,4 @@
+name: caffeine-demo
+recipe: laravel
+config:
+  webroot: public
