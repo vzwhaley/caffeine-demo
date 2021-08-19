@@ -26,7 +26,7 @@ and running rather quickly and smoothly.
 - Install Composer: https://getcomposer.org/doc/00-intro.md#installation-linux-unix-macos
 - Install Node Package Manager: https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
 
-Clone the repository OR unpack contents of caffeine_demo.zip and navigate to the root directory.
+Clone the repository OR unpack contents of caffeine_demo.zip, if available, and navigate to the root directory.
 
 In a terminal, run the following:
 
@@ -58,7 +58,7 @@ Next, run Laravel Migrations to set up the database:
 `lando artisan migrate`
 
 If you would rather run commands in your SQL IDE of choice, I have provided a standalone SQL file in the 
-`~/database` directory.
+`/database` directory.
 
 ### LOAD LOCAL WEBSITE IN BROWSER
 
@@ -69,8 +69,8 @@ If the website loads correctly, use the following to log into the application:
 - E-mail Address: admin@caffeinedemo.com
 - Password: admin
 
-If the website did not load correctly in a browser, please check the settings in the `~/.env` file and also in the
-`~/config/database.php` file to ensure all settings are correct based on the settings you see when running `lando info`.
+If the website did not load correctly in a browser, please check the settings in the `.env` file and also in the
+`/config/database.php` file to ensure all settings are correct based on the settings you see when running `lando info`.
 
 ### APPLICATION FEATURES
 
