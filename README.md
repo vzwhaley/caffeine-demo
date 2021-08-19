@@ -84,10 +84,10 @@ log of how many drinks the user consumed on past dates with the table sorted by 
 **Add My Drink**: This page contains a form for the user to choose a drink and consumption date to add to the database. Each
 time the user consumes a drink, they will simply submit this form and the totals are calculated on the My Drink List page.
 
-**Master Drink List**: This page contains all of the user's favorite drinks stored in the database. From this page, a user 
+**Master Drink List**: This page contains all the user's favorite drinks stored in the database. From this page, a user 
 can Create Drink, Edit Drink and Delete Drink. These CRUD functions are all performed via Laravel and VueJS API routing.
 
-**Create Drin**k: his page contains a form for the user to add a drink to the Master Drink List.
+**Create Drink**: This page contains a form for the user to add a drink to the Master Drink List.
 
 ### EXAMINING CODE
 
